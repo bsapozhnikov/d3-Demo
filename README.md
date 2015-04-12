@@ -24,7 +24,7 @@
 + Add data to nodes/links
 + Event Listeners: `node.on("click",function)`
   + Data gets passed to function:
-  +`node.on("click",function(d){console.log(d.name);})`
+  + `node.on("click",function(d){console.log(d.name);})`
 + Link styling
   + `link.style("stroke-width",function(d){return d.width);})`
 
